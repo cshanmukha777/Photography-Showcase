@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photography Showcase</title>
+  <title>Whispers of Light — A Photography Journey by Steve McCurry</title>
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -13,35 +13,31 @@
       padding: 0;
     }
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 40px;
+      text-align: center;
+      padding: 60px 20px 40px;
       background-color: #13161b;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
     }
-    h1 {
+    header h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 24px;
+      font-size: 36px;
       margin: 0;
       background: linear-gradient(90deg, #f6c85f, #ff7eb3, #7afcff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
     }
-    p {
-      color: #9aa4b2;
-      font-size: 14px;
-    }
-    .tagline {
+    header p {
+      max-width: 600px;
+      margin: 15px auto 0;
+      font-size: 16px;
       font-style: italic;
-      font-size: 15px;
       background: linear-gradient(90deg, #ff9a9e, #fad0c4, #a1c4fd, #c2e9fb);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-top: 5px;
+      background-clip: text;
+      color: transparent;
       letter-spacing: 0.5px;
+      line-height: 1.5;
     }
-    .about {
+    .about, .extended {
       max-width: 900px;
       margin: 40px auto;
       background-color: #161a20;
@@ -50,11 +46,11 @@
       box-shadow: 0 2px 10px rgba(0,0,0,0.4);
       line-height: 1.6;
     }
-    .about h2 {
+    .about h2, .extended h2 {
       font-family: 'Playfair Display', serif;
       background: linear-gradient(90deg, #7afcff, #ffb347, #ff7eb3);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
     }
     .gallery {
       display: grid;
@@ -97,35 +93,40 @@
 </head>
 <body>
   <header>
-    <div>
-      <h1>Shanmukha Sai</h1>
-      <p class="tagline">Capturing whispers of light, shadow, and soul — where every frame tells a silent story.</p>
-    </div>
+    <h1>Whispers of Light — A Photography Journey by Steve McCurry</h1>
+    <p>Capturing the world’s untold stories through light, color, and soul — every image is a window into humanity.</p>
   </header>
 
   <section class="about">
     <h2>About the Photographer</h2>
-    <p>Hi, I'm Shanmukha Sai, a passionate photographer who loves capturing calm and fleeting moments. My photography focuses on natural light, minimal compositions, and quiet beauty found in everyday life. Whether it’s a morning harbor, an empty street, or a portrait by the window, I try to preserve emotions that words can’t express.</p>
-    <p>This collection showcases my favorite works over the past few years — from serene landscapes to intimate portraits. I hope you enjoy browsing through them as much as I enjoyed creating them.</p>
+    <p>Steve McCurry is one of the most iconic voices in contemporary photography. Known for his evocative color images, he captures the human condition across cultures and landscapes. His work reflects compassion and curiosity, blending photojournalism with fine art storytelling.</p>
+    <p>This showcase celebrates the art of seeing — finding beauty and meaning in fleeting moments of life around the globe.</p>
+  </section>
+
+  <section class="extended">
+    <h2>About This Project</h2>
+    <p><em>“Whispers of Light”</em> is a curated gallery inspired by the storytelling vision of Steve McCurry. It highlights the interplay of light and emotion — a visual exploration of humanity’s shared experiences across places and cultures. Each image is carefully chosen to represent the connection between people, place, and time.</p>
+    <p>This project embodies the belief that photography transcends language — that every photograph can whisper a truth of its own.</p>
   </section>
 
   <div class="gallery">
-    <div class="photo"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=600" alt="Harbor"><div class="caption">Harbor Morning</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=600" alt="Portrait"><div class="caption">Window Portrait</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600" alt="Desert Road"><div class="caption">Long Road</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=600" alt="City"><div class="caption">Evening Streets</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=600" alt="Forest"><div class="caption">Forest Path</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600" alt="Ocean"><div class="caption">Ocean Calm</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=600" alt="Mountain"><div class="caption">Mountain Air</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600" alt="Bridge"><div class="caption">Golden Bridge</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600" alt="Night Sky"><div class="caption">Night Sky</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=600" alt="Smile"><div class="caption">Portrait Smile</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=600" alt="Lake"><div class="caption">Still Lake</div></div>
-    <div class="photo"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=600" alt="Foggy Hills"><div class="caption">Foggy Hills</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=600" alt="Harbor"><div class="caption">Golden Harbor Dawn</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=600" alt="Portrait"><div class="caption">Portrait in Soft Light</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=600" alt="Desert Road"><div class="caption">Desert Journey</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=600" alt="City"><div class="caption">Urban Glow</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=600" alt="Forest"><div class="caption">Whispering Woods</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=600" alt="Ocean"><div class="caption">Azure Tides</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?q=80&w=600" alt="Mountain"><div class="caption">Echoing Peaks</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=600" alt="Bridge"><div class="caption">Golden Horizon Bridge</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=600" alt="Night Sky"><div class="caption">Celestial Silence</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=600" alt="Smile"><div class="caption">Radiant Smile</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=600" alt="Lake"><div class="caption">Serene Reflection</div></div>
+    <div class="photo"><img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=600" alt="Foggy Hills"><div class="caption">Misty Heights</div></div>
   </div>
 
   <footer>
-    © 2025 Shanmukha Sai Photography Showcase
+    © 2025 Steve McCurry — Whispers of Light<br>
+    <span style="font-size:12px; color:#7f8c9a;">This project is developed and designed by Shanmukha Sai</span>
   </footer>
 </body>
 </html>
